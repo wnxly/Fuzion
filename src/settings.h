@@ -1156,6 +1156,15 @@ namespace Settings
 		inline float distance = 30.0f;
         inline ShowedAngle type = ShowedAngle::REAL;
 	}
+	
+		namespace WalkBot
+	{
+		extern bool enabled;
+		extern bool forceReset;
+		extern bool autobuy;
+		extern int autobuyAt;
+	}
+
 
 	namespace JumpThrow
 	{
