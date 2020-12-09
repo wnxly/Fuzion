@@ -49,6 +49,7 @@ void Main::RenderWindow()
 				"Visuals",
 				"HvH",
 				"Misc",
+				"Walkbot",
 		};
 
 		for (int i = 0; i < IM_ARRAYSIZE(tabs); i++)
@@ -89,6 +90,9 @@ void Main::RenderWindow()
 				break;
 			case 4:
 				Misc::RenderTab();
+				break;
+			case 5:
+				Walk::RenderWindow();
 				break;
 		}
 		ImGui::End();
